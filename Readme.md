@@ -7,7 +7,7 @@ You can follow the instruction of MIT to install the qemu.
 If you haven't compiled or used riscv toolchain before, 
 I highly recommend you to download and install the pre-build toolchain from [Embecosm](https://www.embecosm.com/resources/tool-chain-downloads/#riscv-stable), which was once mentioned in the releases of [pico-sdk-tools](https://github.com/raspberrypi/pico-sdk-tools/releases/tag/v2.0.0-1)
 
-Remember the file path where you put the toolchain. Then you should edit the path in the Makefile
+Don't forget the file path where you put the toolchain. Then you should edit the path in the Makefile
 ```makefile
 TOOLPREFIX = /opt/riscv/riscv-toolchain-15/bin/riscv32-unknown-elf-
 ```
